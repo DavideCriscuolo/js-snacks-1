@@ -5,7 +5,7 @@ let numbers = [];
 for (let i = 1; i <= 6; i++) {
   let inputnumb = Number(prompt("Inserisci qualcosa:"));
   if (inputnumb != null && inputnumb % 2 != 0) {
-    numbers.push(input);
+    numbers.push(inputnumb);
   }
 }
 console.log(numbers);
