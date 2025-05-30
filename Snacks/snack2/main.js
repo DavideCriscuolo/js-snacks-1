@@ -8,8 +8,8 @@ let word2 = prompt("Scrivi la seconda parola");
 
 if (word1.length > word2.length) {
   console.log(word2, "è la parola piu corta");
-} else if (word1.length < word2.length) {
-  console.log(word2, "è la parola piu lunga");
+} else if (word1.length > word2.length) {
+  console.log(word1, "è la parola piu lunga");
 } else {
   console.log("le parole hanno la stessa lunghezza");
 }
